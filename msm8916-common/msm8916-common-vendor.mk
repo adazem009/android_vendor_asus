@@ -31,6 +31,62 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/asus/msm8916-common/proprietary/vendor/bin/tfamode:$(TARGET_COPY_OUT_VENDOR)/bin/tfamode \
     vendor/asus/msm8916-common/proprietary/vendor/bin/vm_bms:$(TARGET_COPY_OUT_VENDOR)/bin/vm_bms \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback.drc:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/playback.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/playback.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/playback.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback_l.drc:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/playback_l.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback_l.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/playback_l.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/playback_l.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/playback_l.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9895.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9887.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895.patch:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9895.patch \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887.patch:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9887.patch \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9887.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9887l.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9887l.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9895.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/tfa9895_l.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/tfa9895_l.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice.drc:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voice.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voice.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voice.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice_l.drc:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voice_l.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice_l.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voice_l.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voice_l.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voice_l.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip.drc:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip_l.drc:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.drc \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip_l.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa/voip_l.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa/voip_l.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/fm.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/fm.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/fm.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/fm.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/fm.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/playback.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/playback.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/playback.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/playback.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/playback.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/recorder.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/recorder.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/recorder.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/recorder.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/recorder.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ReleaseNote.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/ReleaseNote.txt \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/ring.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/ring.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/ring.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/ring.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/ring.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tcoef.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/tcoef.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/tfa9887.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887.patch:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/tfa9887.patch \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/tfa9887.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/tfa9887l.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/tfa9887l.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/video.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/video.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/video.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/video.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/video.speaker \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.config:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/voice.config \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.eq:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/voice.eq \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.preset:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/voice.preset \
+    vendor/asus/msm8916-common/proprietary/etc/tfa2/voice.speaker:$(TARGET_COPY_OUT_SYSTEM)/etc/tfa2/voice.speaker \
     vendor/asus/msm8916-common/proprietary/etc/Tfa9887.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/Tfa9887.cnt \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_General_cal.acdb \

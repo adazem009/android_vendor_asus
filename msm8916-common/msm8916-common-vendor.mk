@@ -27,11 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/bin/garden_app:$(TARGET_COPY_OUT_SYSTEM)/bin/garden_app\
     vendor/asus/msm8916-common/proprietary/bin/gpsone_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsone_daemon\
     vendor/asus/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/imscmservice:$(TARGET_COPY_OUT_VENDOR)/bin/imscmservice\
     vendor/asus/msm8916-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon\
     vendor/asus/msm8916-common/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/asus/msm8916-common/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/asus/msm8916-common/proprietary/bin/loc_launcher:$(TARGET_COPY_OUT_SYSTEM)/bin/loc_launcher\
     vendor/asus/msm8916-common/proprietary/bin/msm_irqbalance:$(TARGET_COPY_OUT_SYSTEM)/bin/msm_irqbalance\

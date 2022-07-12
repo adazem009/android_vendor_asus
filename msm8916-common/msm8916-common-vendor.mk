@@ -17,6 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
+    vendor/asus/msm8916-common/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/asus/msm8916-common/proprietary/vendor/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_VENDOR)/bin/move_widevine_data.sh \
     vendor/asus/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/asus/msm8916-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \

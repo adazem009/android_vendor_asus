@@ -533,11 +533,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b11:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wcnss.b11\
     vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wcnss.mdt
 
-# Keystore
-PRODUCT_COPY_FILES += \
-    vendor/asus/Z00xD/proprietary/vendor/lib/hw/keystore.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8916.so \
-    vendor/asus/Z00xD/proprietary/vendor/lib64/hw/keystore.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8916.so
-
 # WiFi
 PRODUCT_COPY_FILES += \
     vendor/asus/Z00xD/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin

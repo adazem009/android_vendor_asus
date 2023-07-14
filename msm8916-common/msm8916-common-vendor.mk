@@ -793,6 +793,24 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/asus/msm8916-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml
 
+# Audio patch
+PRODUCT_COPY_FILES += \
+    vendor/asus/msm8916-common/proprietary/vendor/etc/patch/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/patch/audio_platform_info.xml \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/patch/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/patch/hw/audio.primary.default.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/patch/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/patch/hw/audio.primary.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/patch/hw/audio_amplifier.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/patch/hw/audio_amplifier.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/patch/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/patch/libacdb-fts.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/patch/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/patch/libacdbloader.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/patch/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/patch/libacdbmapper.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/patch/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/patch/libacdbrtac.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/patch/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/patch/hw/audio.primary.default.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/patch/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/patch/hw/audio.primary.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/patch/hw/audio_amplifier.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/patch/hw/audio_amplifier.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/patch/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/patch/libacdb-fts.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/patch/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/patch/libacdbloader.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/patch/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/patch/libacdbmapper.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/patch/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/patch/libacdbrtac.so
+
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
